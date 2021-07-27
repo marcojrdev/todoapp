@@ -1,0 +1,34 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  background-color: aqua;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottonRow{
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottonRow button {
+  background-color: #ffffff;
+  border: 0;
+  cursor: pointer;
+}
